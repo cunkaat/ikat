@@ -1,0 +1,262 @@
+body {
+    font-family: Istok Web, sans-serif;
+    background-color: #00b6ee;
+    overflow: hidden;
+}
+
+#ikat-container {
+    position: relative;
+    background-color: #7D349E;
+    height: 50vh;
+    border: 5px solid #FDEE00;
+    border-radius: 10px;
+    top: 5vh;
+    margin: 0 3 vw;
+}
+
+#ikat-logo {
+    position: absolute;
+    width: 20vw;
+    height: 18vh;
+    top: -6vh;
+    left: 14vw;
+}
+
+#ikat-nav {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    top: 13vh;
+    font-size: 2em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border: 5px solid #FDEE00;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #00b6ee;
+    font-weight: bold;
+    margin: 0 0.5vw
+}
+
+section {
+    position:relative;
+    background-color: white;
+    height: 50vh;
+    border: 5px solid #FDEE00;
+    border-radius: 50% 50% 10px 10px;
+    margin: 0 3vw;
+    bottom: 22vh;
+}
+
+#video {
+    position: absolute;
+    background-color: #FDEE00;
+    top: -2vh;
+    z-index: 2;
+    height: 64.2vh;
+    width: 36vw;
+    border-radius: 5px;
+    left: -2vw;
+
+}
+
+ #gvlog {
+    position: absolute;
+    object-fit: cover;
+    width: 35vw;
+    height: 55vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 2vh;
+    outline: none;
+ }
+
+ #video-controls {
+    position: absolute;
+    background-color: #D0FDFE;
+    border-radius: 5px;
+    width: 36vw;
+    height: 11vh;
+    bottom: -5vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+
+ }
+
+ #stopbutton {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    clip-path: circle(50% at 50% 50%);
+    height: 5vh;
+    width: 5vh;
+    background-color: #7ED0E9;
+    left: 4vw;
+ }
+
+ #play-triangle {
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    background-color: black;
+    height: 3vh;
+    width: 1vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: .25vw;
+    margin: auto auto;
+ }
+
+ #play-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    left: 1vw;
+    clip-path: circle(50% at 50% 50%);
+    height: 5vh;
+    width: 5vh;
+    background-color: #7ED0E9;
+ }
+
+ #stop-square {
+    background-color: black;
+    height: 2vh;
+    width: 1vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto auto;
+ }
+
+ #play-button:hover, #stop-button:hover {
+    cursor: pointer;
+ }
+
+ #scroll {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #F4EFF8;
+    width: 26vw;
+    height: 5vh;
+    top: 0;
+    bottom: 0;
+    right: 2vw;
+    margin: auto 0;
+ }
+
+ #seekslider {
+    position: absolute;
+    background-color: #3A81FF;
+    width: 100%;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+ }
+
+#friends {
+    position: absolute;
+    left: 35vw;
+    font-size: 2.5em;
+}
+
+ #friend1 {
+    position: absolute;
+    background-color: #7C2899;
+    width: 45vw;
+    height: 15vh;
+    left: 35vw;
+    top: 10vh;
+    border: 5px solid #fff53d;
+    border-radius: 10px;
+ }
+
+ #friend1-photo {
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    left: 2vw;
+    border: 3px solid white;
+    border-radius: 5px;
+ }
+
+ #friend2 {
+    position: absolute;
+    background-color: #7C2899;
+    width: 45vw;
+    height: 15vh;
+    left: 35vw;
+    top: 26vh;
+    border: 5px solid #fff53d;
+    border-top: none;
+    border-radius: 10px;
+ }
+
+ #friend2-photo {
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    left: 2vw;
+    border: 3px solid white;
+    border-radius: 5px;
+ }
+
+ .star {
+    position: absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: white;
+    height: 5vh;
+    width: 2vw;
+    left: 10vw;
+ }
+
+ .position1 {
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+}
+
+.position2 {
+    position: absolute;
+    margin: auto 3vw;
+    top: 0;
+    bottom: 0;
+}
+
+.position3 {
+    position: absolute;
+    margin: auto 6vw;
+    top: 0;
+    bottom: 0;
+}
+
+.position4 {
+    position: absolute;
+    margin: auto 9vw;
+    top: 0;
+    bottom: 0;
+}
+
+footer {
+    position: relative;
+    background-color: #FFAC46;
+    height: 17vh;
+    bottom: 23vh;
+    border: 5px solid #fff53d;
+    border-radius: 10px;
+    margin: 0 3vw;
+}
+

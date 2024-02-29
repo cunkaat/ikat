@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+        <div id="ikat-container">
+            <div id="ikat-logo">
+                <img src="" alt="iKat logo">
+            </div>
+        <nav id="ikat-nav">
+            <a href="#"><span style="color: #7C2899";>i</span>Blogs</a>
+            <a href="#"><span style="color: #7C2899";>i</span>Snaps</a>
+            <a href="#"><span style="color: #7C2899";>i</span>Read</a>
+            <a href="#"><span style="color: #7C2899";>i</span>Watch</a>
+            <a href="#"><span style="color: #7C2899";>i</span>Listen</a>
+            <a href="#"><span style="color: #7C2899";>i</span>Shop</a>
+        </nav>
+        </div>
+    </header>    
+        
+    <section>
+        <div id="video">
+            <video id="gvlog">
+                <source src="img/gvlog.mp4" type="video/mp4">
+            </video>
+            <div id="video-controls">
+                <div id="play-button">
+                    <div id="play-triangle"></div>
+                </div>
+                <div id="stop-button">
+                    <div id="stop-square"></div>
+                </div>
+                <div id="scroll">
+                    <input id="seekslider" type="range" min="0" max="100" value="0" step="1">
+                </div>
+            </div>
+             </div>
+             <h1 id="friends"><span style="color: #7C2899;">Friends!</span></h1>
+             <div id="friend1">
+                <img id="friend1-photo" src="img/friend1.jpg" alt="friend 1" style="height: 75px; width: 75px"> 
+                <div class="position1 star"></div>
+                <div class="position2 star"></div>
+                <div class="position3 star"></div>
+                <div class="position4 star"></div>
+             </div>
+             <div id="friend2">
+                <img id="friend2-photo" src="img/friend3.jpg" alt="friend 2" style="height: 75px; width: 75px"> 
+                <div class="position1 star"></div>
+                <div class="position2 star"></div>
+                <div class="position3 star"></div>
+                <div class="position4 star"></div>
+             </div>
+             </div>
+    </section>
+    
+    <footer>
+        <div id="four-stars"></div>
+    </footer>
+
+    <script>
+
+        var vlog = document.getElementById('gvlog');
+        var playButton = document.getElementById('play-button');
+        var stopButton = document.getElementById('stop-button');
+        var seekslider = document.getElementById('seekslider');
+
+        playButton.addEventListener('click', () => {
+            vlog.play();
+        });
+
+        stopButton.addEventListener('click', () => {
+            vlog.pause();
+        });
+
+        vlog.addEventListener('timeupdate', () => {
+            var nt = vlog.currentTime * (100 / gvlog.duration);
+            seekslider.value = nt;
+        });
+
+        seekslider.addEventListener('change', () => {
+            var seekto = vlog.duration * (seekslider.value / 100);
+            vlog.currentTime = seekto;
+        }); 
+
+    </script>
+
+    </body>
+</html>
