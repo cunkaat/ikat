@@ -217,16 +217,6 @@ section {
 
  }
 
- #stopbutton {
-   clip-path: circle(50% at 50% 50%);background-color: #0a303c;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto 0;
-    width: 1vw;
-    top: 0;
-    bottom: 0;
- }
 
  #play-triangle {
     clip-path: polygon(100% 50%, 0 0, 0 100%);
@@ -252,6 +242,19 @@ section {
     width: 5vh;
     background-color: #7ED0E9;
  }
+
+ #stopbutton {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   margin: auto 0;
+   left: 5.1rem;
+   clip-path: circle(50% at 50% 50%);
+   height: 5vh;
+   width: 5vh;
+   background-color: #7ED0E9;
+   
+}
 
  #stop-square {
     background-color: black;
