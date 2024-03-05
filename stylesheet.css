@@ -171,7 +171,7 @@ body {
 }
 
 section {
-    position:relative;
+    position: relative;
     background-color: white;
     height: 50vh;
     border: 5px solid #FDEE00;
@@ -405,6 +405,59 @@ p {
     top: 0;
     bottom: 0;
 }
+
+/* Snaps Flexbox */
+
+.snaps_pictures {
+   position: absolute;
+   top: 8rem;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+}
+
+.snap_1 {
+    border: 7px solid lightskyblue;
+    margin: 5px;
+    text-align: center;
+    max-height: 150px;
+}
+
+.snap_2 {
+    border: 7px solid lightskyblue;
+    margin: 5px;
+    text-align: center;
+    max-height: 150px;
+}
+
+.snap_3 {
+    border: 7px solid lightskyblue;
+    margin: 5px;
+    text-align: center;
+    max-height: 150px;
+}
+
+.snap_4 {
+    border: 7px solid lightskyblue;
+    margin: 5px;
+    text-align: center;
+    max-height: 150px;
+}
+
+.snap_5 {
+   border: 7px solid lightskyblue;
+   margin: 5px;
+   text-align: center;
+   max-height: 150px;
+}
+
+.snap_6 {
+   border: 7px solid lightskyblue;
+   margin: 5px;
+   text-align: center;
+   max-height: 150px;
+}
+
 
 footer {
     position: relative;
