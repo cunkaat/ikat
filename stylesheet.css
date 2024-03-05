@@ -635,6 +635,17 @@ p {
    width: 40%;
 }
 
+/*Listen spotify page */
+#spotify {
+   position: absolute;
+   padding: 0.7rem;
+   width: 59rem;
+   height: 19.2rem;
+   left: 23rem;
+   top: 10vh;
+   border-radius: 10px;
+}
+
 footer {
     position: relative;
     background-color: #FFAC46;
