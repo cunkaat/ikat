@@ -292,6 +292,7 @@ section {
     bottom: 0;
  }
 
+
 #blogs-title {
    position: absolute;
     left: 25rem;
@@ -408,56 +409,231 @@ p {
 
 /* Snaps Flexbox */
 
+.snaps_pictures img {
+   max-width: 75%;
+}
+
+.snaps_pictures p {
+   color:#00b6ee;
+   top: 3rem;
+}
+
 .snaps_pictures {
-   position: absolute;
-   top: 8rem;
+   margin: auto;
+   margin-top: 7rem;
+   width: 85%; 
+   height: 68%;
    display: flex;
    flex-direction: row;
    flex-wrap: nowrap;
 }
 
 .snap_1 {
-    border: 7px solid lightskyblue;
+    border: 7px solid #99CA3C;
+    padding: 1rem;
     margin: 5px;
     text-align: center;
-    max-height: 150px;
+    width: 15%; 
 }
 
 .snap_2 {
-    border: 7px solid lightskyblue;
+    border: 7px solid #FDEE00;
+    padding: 1rem;
     margin: 5px;
     text-align: center;
-    max-height: 150px;
+    width: 15%; 
 }
 
 .snap_3 {
-    border: 7px solid lightskyblue;
+    border: 7px solid #00b6ee;
+    padding: 1rem;
     margin: 5px;
     text-align: center;
-    max-height: 150px;
+    width: 15%; 
 }
 
 .snap_4 {
-    border: 7px solid lightskyblue;
+    border: 7px solid #DE078B;
+    padding: 1rem;
     margin: 5px;
     text-align: center;
-    max-height: 150px;
+    width: 15%; 
 }
 
 .snap_5 {
-   border: 7px solid lightskyblue;
+   border: 7px solid #99CA3C;
+   padding: 1rem;
    margin: 5px;
    text-align: center;
-   max-height: 150px;
+   width: 15%; 
 }
 
 .snap_6 {
-   border: 7px solid lightskyblue;
+   border: 7px solid #FDEE00;
+   padding: 1rem;
    margin: 5px;
    text-align: center;
-   max-height: 150px;
+   width: 15%; 
 }
 
+/*iRead Books sections*/
+
+#first-read {
+   position: absolute;
+   background-color: #7C2899;
+   padding: 0.7rem;
+   width: 20rem;
+   height: 18rem;
+   left: 15rem;
+   top: 6rem;
+   border: 7px solid #FDEE00;
+   border-radius: 10px;
+}
+
+#first-read img {
+   position: relative;
+   left: 6.9rem;
+   width: 35%;
+}
+
+#first-read h1{
+   position: relative;
+   right: 0.3rem;
+   font-size: 1.5rem;
+   text-align: center;
+   padding: 1rem;
+   margin: 5px;
+   margin-left: 2rem;
+}
+
+#first-read h1::first-line {
+   color: white; 
+}
+
+#second-read {
+   position: absolute;
+   background-color: #7C2899;
+   padding: 0.7rem;
+   width: 20rem;
+   height: 18rem;
+   left: 41.59rem;
+   top: 6rem;
+   border: 7px solid #FDEE00;
+   border-radius: 10px;
+}
+
+#second-read img {
+   position: relative;
+   left: 6.9rem;
+   width: 35%;
+}
+
+#second-read h1{
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+#second-read h1::first-line {
+   color: white; 
+}
+
+#third-read {
+   position: absolute;
+   background-color: #7C2899;
+   padding: 0.7rem;
+   width: 20rem;
+   height: 18rem;
+   left: 68.5rem;
+   top: 6rem;
+   border: 7px solid #FDEE00;
+   border-radius: 10px;
+}
+
+#third-read img {
+   position: relative;
+   left: 6.9rem;
+   width: 33%;
+}
+
+#third-read h1{
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+#third-read h1::first-line {
+   color: white; 
+}
+
+/*iWatch Films Movie Section*/
+
+#first-movie {
+   position: absolute;
+   background-color: #7C2899;
+   padding: 0.7rem;
+   width: 20rem;
+   height: 18rem;
+   left: 15rem;
+   top: 6rem;
+   border: 7px solid #FDEE00;
+   border-radius: 10px;
+}
+
+#first-movie img {
+   position: relative;
+   left: 6rem;
+   width: 40%;
+}
+
+#first-movie h1{
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+#second-movie {
+   position: absolute;
+   background-color: #7C2899;
+   padding: 0.7rem;
+   width: 20rem;
+   height: 18rem;
+   left: 41.59rem;
+   top: 6rem;
+   border: 7px solid #FDEE00;
+   border-radius: 10px;
+}
+
+#second-movie h1{
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+#second-movie img {
+   position: relative;
+   left: 6rem;
+   width: 40%;
+}
+
+#third-movie {
+   position: absolute;
+   background-color: #7C2899;
+   padding: 0.7rem;
+   width: 20rem;
+   height: 18rem;
+   left: 68.5rem;
+   top: 6rem;
+   border: 7px solid #FDEE00;
+   border-radius: 10px;
+}
+
+#third-movie h1{
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+#third-movie img {
+   position: relative;
+   left: 6rem;
+   width: 40%;
+}
 
 footer {
     position: relative;
