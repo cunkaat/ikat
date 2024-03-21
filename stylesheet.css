@@ -16,11 +16,14 @@ body {
 
 #ikat-logo {
    position: absolute;
-   top: 0rem;
+   top: .2rem;
    left: 5rem;
    width: 32.8125rem;
    height: 10.0625rem;
+}
 
+#ikat-logo:hover {
+   transform: scale(1.04);
 }
 
 #ikat-logo img {
@@ -35,6 +38,10 @@ body {
     left: 0;
     top: 7.4rem;
     font-size: 2em;    
+}
+
+#ikat-nav:hover {
+   transform: scale(1.04);
 }
 
 #blogs-link {
@@ -156,8 +163,13 @@ body {
    padding: 5px;
    background-color: #EDA95E;
    font-weight: bold;
-   margin: 0 0.5vw
+   margin: 0 0.5vw;
+   transition: transform 0.3s ease-in-out;
 }
+
+#home-blue:hover {
+   transform: scale(.2);
+  }
 
 #home-blue {
     color: white;
@@ -169,6 +181,7 @@ body {
     font-weight: bold;
     margin: 0 0.5vw
 }
+
 
 section {
     position: relative;
@@ -231,7 +244,7 @@ section {
     margin: auto auto;
  }
 
- #play-button {
+#play-button {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -241,7 +254,7 @@ section {
     height: 5vh;
     width: 5vh;
     background-color: #7ED0E9;
- }
+ } 
 
  #stopbutton {
    position: absolute;
@@ -292,6 +305,13 @@ section {
     bottom: 0;
  }
 
+ #friend1:hover img {
+   transform: scale(1.2);
+}
+
+#friend2:hover img {
+   transform: scale(1.2);
+}
 
 #blogs-title {
    position: absolute;
@@ -413,8 +433,12 @@ p {
    max-width: 75%;
 }
 
+.snaps_pictures img:hover {
+   transform: scale(1.1);
+}
+
 .snaps_pictures p {
-   color:#00b6ee;
+   color: white;
    top: 3rem;
 }
 
@@ -430,6 +454,7 @@ p {
 
 .snap_1 {
     border: 7px solid #99CA3C;
+    background-color: #7C2899;
     padding: 1rem;
     margin: 5px;
     text-align: center;
@@ -438,6 +463,7 @@ p {
 
 .snap_2 {
     border: 7px solid #FDEE00;
+    background-color: #7C2899;
     padding: 1rem;
     margin: 5px;
     text-align: center;
@@ -446,6 +472,7 @@ p {
 
 .snap_3 {
     border: 7px solid #00b6ee;
+    background-color: #7C2899;
     padding: 1rem;
     margin: 5px;
     text-align: center;
@@ -454,6 +481,7 @@ p {
 
 .snap_4 {
     border: 7px solid #DE078B;
+    background-color: #7C2899;
     padding: 1rem;
     margin: 5px;
     text-align: center;
@@ -462,6 +490,7 @@ p {
 
 .snap_5 {
    border: 7px solid #99CA3C;
+   background-color: #7C2899;
    padding: 1rem;
    margin: 5px;
    text-align: center;
@@ -470,6 +499,7 @@ p {
 
 .snap_6 {
    border: 7px solid #FDEE00;
+   background-color: #7C2899;
    padding: 1rem;
    margin: 5px;
    text-align: center;
@@ -494,6 +524,10 @@ p {
    position: relative;
    left: 6.9rem;
    width: 35%;
+}
+
+#first-read img:hover {
+   transform: scale(1.1);
 }
 
 #first-read h1{
@@ -528,6 +562,10 @@ p {
    width: 35%;
 }
 
+#second-read img:hover {
+   transform: scale(1.1);
+}
+
 #second-read h1{
    font-size: 1.5rem;
    text-align: center;
@@ -553,6 +591,10 @@ p {
    position: relative;
    left: 6.9rem;
    width: 33%;
+}
+
+#third-read img:hover {
+   transform: scale(1.1);
 }
 
 #third-read h1{
@@ -584,6 +626,10 @@ p {
    width: 40%;
 }
 
+#first-movie img:hover {
+   transform: scale(1.1);
+}
+
 #first-movie h1{
    font-size: 1.5rem;
    text-align: center;
@@ -612,6 +658,10 @@ p {
    width: 40%;
 }
 
+#second-movie img:hover {
+   transform: scale(1.1);
+}
+
 #third-movie {
    position: absolute;
    background-color: #7C2899;
@@ -633,6 +683,10 @@ p {
    position: relative;
    left: 6rem;
    width: 40%;
+}
+
+#third-movie img:hover {
+   transform: scale(1.1);
 }
 
 /*Listen spotify page */
